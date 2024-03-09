@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: eesti-regular;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: eesti-regular;
+    src: url(fonts/gteestipro/gteestiprodisplay_regular.otf);
+}
+
+@font-face {
+    font-family: eesti-light;
+    src: url(fonts/gteestipro/gteestiprodisplay_light.otf);
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-line {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    height: 6vh;
+}
+
+.links-head {
+    display: flex;
+    gap: 2vw;
+}
+
+.head2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    height: 9vh;
+    border-bottom: 2px solid rgb(191, 191, 191);
+}
+
+.social-head {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-head {
+    height: 4vh;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.head3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    height: 9vh;
+}
+
+.catalog {
+    background-color: rgb(65, 116, 203);
+    border-radius: 3px;
+    width: 11vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchbox {
+    position: relative;
+    display: flex;
+    right: 1vw;
+
+}
+
+.menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.usericon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 3vw;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+}
+
+footer {
+    position: relative;
+    top: 5vh;
+    width: 100%;
+    background-color: rgb(21, 62, 132);
+    color: white;
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.foot1 {
+    position: relative;
+    width: 82vw;
+    display: flex;
+    justify-content: space-between;
+}
+.foot2 {
+    position: relative;
+    width: 82vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14pt;
+    border-top: 2px solid white;
+}
+
+.foot1 p {
+    font-size: 14pt;
+    font-family: eesti-light;
+}
+.foot1 a {
+    font-size: 14pt;
+    color: rgb(189, 189, 189);
+    font-family: eesti-light;
+}
+.foot1 h4 {
+    font-size: 20pt;
+    font-family: eesti-light;
+}
+
+.foot-column {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.foot-text-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.foot-social {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+.foot-social img {
+    width: 3vw;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(143, 175, 229);
+    width: 82%;
+    height: 37vh;
+    gap: 4vh;
+}
+
+.trust-box {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.trust-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trust {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3vh;
+}
+
+.trust p {
+    color: black;
+    font-size: 14pt;
+}
+
+.bluetext {
+    color: rgb(21, 62, 132);
+    font-size: 20pt;
+
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    text-align: left;
+}
+
+.brandbox {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandthree {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    text-align: left;
+}
+
+.brandfour {
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    text-align: left;
+}
+
+.logo{
+    font-family: Orbitron;
+    font-size: 25pt;
+}
+
+.blue48 {
+    color: rgb(21, 62, 132);
+    font-size: 48pt;
+}
+
+.white24 {
+    color: white;
+    font-family: eesti-light;
+    font-size: 24pt;
+}
+
+.white18 {
+    color: white;
+    font-size: 18pt;
+}
+
+.black14 {
+    color: black;
+    font-size: 14pt;
+}
+
+.black18 {
+    color: black;
+    font-size: 18pt;
+}
+
+.black20 {
+    color: black;
+    font-size: 20pt;
+}
+
+.black25 {
+    color: black;
+    font-size: 25pt;
+}
+
+.black32 {
+    color: black;
+    font-size: 32pt;
+    font-family: eesti-light;
+}
+
+.email {
+    width: 25vw;
+    height: 5vh;
+    font-size: 14pt;
+    border: 1px solid rgb(65, 116, 203);
+    border-radius: 3px 0px 0px 3px;
+}
+
+.ebutton {
+    position: relative;
+    width: 10vw;
+    height: auto;
+    background-color: rgb(65, 116, 203);
+    color: white;
+    font-size: 14pt;
+    border: rgb(65, 116, 203);
+    border-radius: 0px 3px 3px 0pxx;
+}
+
+.bank {
+    height: 3vh;
+}
+
+.banner {
+    position: relative;
+    width: 82%;
+    height: 40%;
+}
+
+.bigimage {
+    width: 100%;
+    height: 100%;
+}
+
+.arrows {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    bottom: 20px;
+    right: 50px;
+}
+
+.left-right {
+    width: 5vw;
+}
+
+.dots {
+    position: absolute;
+    bottom: 49px;
+    left: 45px;
+}
+
+.search {
+    width: 43vw;
+    height: 5vh;
+    font-size: 14pt;
+    border: 1px solid rgb(65, 116, 203);
+    border-radius: 3px 0px 0px 3px;
+}
+
+.sbutton {
+    position: relative;
+    width: 7vw;
+    height: auto;
+    background-color: rgb(65, 116, 203);
+    color: white;
+    font-size: 14pt;
+    border: rgb(65, 116, 203);
+    border-radius: 0px 3px 3px 0px;
+}
+
+.tripoloski {
+    position: relative;
+    width: 2vw;
+    height: 4vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0%;
+}
+
+.theme-name {
+    position: absolute;
+    background-color: rgba(65, 116, 203, 50%);
+    bottom: 5px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 5vh;
+}
+
+.theme-img {
+    border-radius: 7px;
+    width: 100%;
+    box-shadow: -6px 6px 10px rgb(228, 228, 228);
+}
+
+.theme-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    gap: 2vh;
+}
+
+.theme-name {
+    width: 100%;
+    height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme {
+    position: relative;
+    width: 19%;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vh;
+}
+
+.balls-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+}
+
+.ball-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ball-photo {
+    width: 17vw;
+}
+
+.ball-card {
+    position: relative;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    border-radius: 7px;
+    padding: 6px;
+}
+.content:hover {
+    box-shadow: -6px 6px 8px rgb(228, 228, 228);
+}
+.content:hover + .like-hide {
+    display: block;
+}
+
+.like {
+    right: 3px;
+    width: 35px;
+}
+.like-hide {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: none;
+}
+
+.stars {
+    width: 50%;
+}
+
+.ball-text {
+    width: 100%;
+    position: relative;
+    color: black;
+    font-size: 14pt;
+    font-family: eesti-light;
+}
+
+.price {
+    font-family: eesti-light;
+    font-size: 24pt;
+}
+
+.ball-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-bucket {
+    width: 20%;
+}
+
+.bucket-empty {
+    width: 17%;
+}
+
+.popular-arrow {
+    width: 3vw;
+}
+.arrow-left {
+    position: relative;
+    left: 1vw;
+}
+.arrow-right {
+    position: relative;
+    right: 1vw;
+}
+.sale {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sale p:first-child {
+    color: rgb(231, 85, 44);
+}
+.sale p:nth-child(2) {
+    color: rgb(189, 189, 189);
+    font-size: 14pt;
+}
